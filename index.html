@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
   <meta charset="utf-8" />
   <title>Ramen Rater</title>
@@ -8,31 +9,45 @@
   <script defer type="text/javascript" src="./src/index.js"></script>
 </head>
 
+
 <body>
   <header>
     <h3>Ramen Rater</h3>
   </header>
 
+
   <!-- Ramen Menu -->
   <div id="ramen-menu">
     <!-- Ramen Images Here -->
+    <img src="./assets/ramen/shoyu.jpg" />
+    <img src="./assets/ramen/naruto.jpg" />
+    <img src="./assets/ramen/nirvana.jpg"/>
+    <img src="./assets/ramen/gyukotsu.jpg" />
+    <img src="./assets/ramen/kojiro.jpg" />
   </div>
+ 
+ 
+
 
   <!-- Ramen Details -->
   <div id="ramen-detail">
-    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-    <h2 class="name">Insert Name Here</h2>
-    <h3 class="restaurant">Insert Restaurant Here</h3>
+    <img src="./assets/ramen/shoyu.jpg" />
+    <h2 class="name">Shoyu Ramen</h2>
+    <h3 class="restaurant">Nonono</h3>
   </div>
+ 
+   
+
 
   <h3>Rating:</h3>
   <p>
-    <span id='rating-display'>Insert rating here</span> / 10
+    <span id='rating-display'>7 </span> / 10
   </p>
-  <h3>Comment:</h3>
+  <h3>comment:</h3>
   <p id='comment-display'>
-    Insert comment here
+    "Delish. Can't go wrong with a classic!"
   </p>
+
 
   <!-- New Ramen Form -->
   <form id="new-ramen">
@@ -50,6 +65,8 @@
     <input type="submit" value="Create" />
   </form>
 
+
 </body>
+
 
 </html>
