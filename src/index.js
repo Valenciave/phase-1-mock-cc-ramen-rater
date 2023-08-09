@@ -9,7 +9,10 @@ ramenResponse.then((ramen) => {
         const ramenMenu = document.querySelector("#ramen-menu");
         const image = document.createElement("img");
         image.src = ramen[i].image;
-        
+        const ramenDetailDiv = document.querySelector("#ramen-detail");
+        const ramenName = querySelector("#name");
+        ramenName.textContent = ramen[i].name;
+        ramenDetailDiv.appendChild(ramenName);
         ramenMenu.append(image);
 
         //console.log(ramen[i])
